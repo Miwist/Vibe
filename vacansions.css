@@ -1,0 +1,161 @@
+.main-banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.p-orange {
+  color: #ce946b;
+  cursor: pointer;
+}
+
+.main-banner-text p {
+  white-space: normal;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.main-container {
+  margin-bottom: 100px;
+}
+
+.main-banner-vacansions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  height: 800px;
+  overflow-x: hidden;
+}
+
+.banner__button,
+.vacansions__button,
+.feedback__button {
+  width: 340px;
+  height: 98px;
+  background: linear-gradient(314.24deg, #c88c61 25.11%, #ebbe9c 88.64%);
+  box-shadow: inset 0px 0px 12px #e5b79a;
+  border-radius: 4px;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  cursor: pointer;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.banner__button:hover,
+.vacansions__button:hover,
+.p-orange:hover {
+  opacity: 0.8;
+}
+
+.banner__button:active,
+.vacansions__button:active,
+.p-orange:active {
+  opacity: 0.7;
+}
+
+.vacansions__button {
+  width: 200px;
+  height: 60px;
+}
+
+.feedback__input {
+  width: 350px;
+  height: 80px;
+  background: #ffffff;
+  border: 1px solid rgba(250, 250, 250, 0.165952);
+  box-shadow: inset 0px 1px 4px rgba(193, 203, 202, 0.212751);
+  border-radius: 7px;
+  margin-right: 10px;
+}
+
+#check {
+  cursor: pointer;
+}
+
+.feedback-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.feedback__button {
+  width: 350px;
+  height: 85px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.feedback__button:hover {
+  opacity: 0.9;
+}
+
+.feedback__button:active {
+  opacity: 0.5;
+}
+
+.vacansions-list {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-bottom: 100px;
+}
+
+.vacansions-list p {
+  text-align: center;
+}
+
+.vacansions-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  border-bottom: 0.2px solid #e9e9f1;
+  margin-bottom: 10px;
+}
+
+.work-like {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.work-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.feedback-container {
+  width: 100%;
+  height: 500px;
+  background-color: #363348;
+  border-radius: 1em 1em 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-container p {
+  max-width: 1400px;
+  margin: 40px 0 40px 0;
+}
+
+.feedback-write {
+  display: flex;
+  flex-direction: column;
+}

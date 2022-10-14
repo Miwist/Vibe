@@ -1,0 +1,459 @@
+@media screen and (max-width: 1360px) {
+  .header-wrapper {
+    max-width: 1360px;
+  }
+
+  .main-banner,
+  .contact-bg {
+    max-width: 1190px;
+    height: 578px;
+  }
+
+  .main-banner-vacansions {
+    max-width: 1100px;
+    max-height: 660px;
+    overflow-y: hidden;
+  }
+
+  .main-banner-vacansions p {
+    font-size: 14px;
+  }
+
+  .main-banner-vacansions h2,
+  .h2-white {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .description-container {
+    margin: 50px 150px 100px 150px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
+  h2,
+  .h2-white {
+    font-size: 80px;
+    line-height: 94px;
+  }
+
+  .networks-first {
+    max-width: 1100px;
+  }
+
+  .networks-second {
+    max-width: 1000px;
+  }
+
+  .description-box,
+  .procedures-box {
+    grid-gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .vacansions-list {
+    margin: 0 60px 100px 60px;
+  }
+
+  .coworks-box {
+    max-width: 1100px;
+  }
+
+  .atmosphere__photo {
+    margin-right: 20px;
+  }
+
+  .coworks-box__location h2 {
+    font-size: 27px;
+  }
+
+  .prices-box h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+  .prices-box p {
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 30px;
+  }
+
+  .politic-text h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header-wrapper {
+    max-width: 992px;
+  }
+
+  .main-banner,
+  .contact-bg {
+    max-width: 930px;
+    height: 508px;
+  }
+
+  .main-banner-vacansions {
+    max-width: 900px;
+    max-height: 600px;
+    overflow-y: hidden;
+  }
+
+  .main-banner-vacansions p {
+    font-size: 12px;
+  }
+
+  .main-banner-vacansions h2,
+  .h2-white {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .description-container {
+    margin: 50px 20px 100px 20px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  h5 {
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+  h3 {
+    font-size: 27px;
+  }
+
+  h2,
+  .h2-white {
+    font-size: 72px;
+    line-height: 83px;
+  }
+
+  .networks-first {
+    max-width: 900px;
+  }
+
+  .networks-second {
+    max-width: 900px;
+  }
+
+  .description-box,
+  .procedures-box {
+    grid-gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .vacansions-list {
+    margin: 0 60px 100px 60px;
+  }
+
+  .coworks-box {
+    max-width: 900px;
+  }
+
+  .atmosphere__photo {
+    margin-right: 20px;
+  }
+
+  .coworks-box__location h2 {
+    font-size: 27px;
+  }
+
+  .prices-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .prices-box p {
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 26px;
+  }
+
+  .politic-text h3 {
+    font-size: 26px;
+  }
+
+  .secrets-box {
+    grid-gap: 70px;
+  }
+
+  .secrets__img {
+    width: 80%;
+  }
+  .atmosphere__photo {
+    width: 60%;
+  }
+
+  .feedback-container p {
+    font-size: 16px;
+    margin: 20px 50px 30px 50px;
+  }
+
+  .feedback__input,
+  .feedback__button {
+    width: 260px;
+    height: 70px;
+  }
+
+  label {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .shape-img {
+    height: 15px;
+    margin-right: 0;
+  }
+
+  .callback__phone {
+    margin-top: 5px;
+  }
+
+  .header-wrapper {
+    max-width: 320px;
+    margin-bottom: 20px;
+  }
+
+  .description-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description-text {
+    margin-bottom: 20px;
+  }
+
+  .header-menu,
+  .header-name__beauty,
+  .main-container {
+    display: none;
+  }
+
+  .callback__phone,
+  .callback__mail {
+    height: 14px;
+  }
+
+  .main-banner-vacansions {
+    max-width: 320px;
+    max-height: 150px;
+    overflow-y: hidden;
+  }
+
+  .main-banner-vacansions p {
+    font-size: 10px;
+  }
+
+  .main-banner-vacansions h2,
+  .h2-white {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .description-container {
+    margin: 10px 10px 50px 10px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .atmosphere,
+  .atmosphere-title {
+    margin-bottom: 30px;
+  }
+
+  .atmosphere p {
+    margin-top: 20px;
+  }
+
+  .atmosphere-row {
+    max-width: 320px;
+  }
+
+  .box-flex__cell {
+    white-space: none;
+  }
+
+  h5 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  h2,
+  .h2-white {
+    font-size: 32px;
+    line-height: 33px;
+  }
+
+  .networks-first,
+  .networks-second {
+    max-width: 300px;
+  }
+
+  .description-box,
+  .procedures-box {
+    grid-gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .vacansions-list {
+    margin: 0 10px 50px 10px;
+  }
+
+  .coworks-box {
+    max-width: 320px;
+  }
+
+  .atmosphere__photo {
+    margin-right: 20px;
+  }
+
+  .coworks-box__location h2 {
+    font-size: 22px;
+  }
+
+  .prices-box h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .prices-box p {
+    font-size: 12px;
+  }
+
+  table {
+    font-size: 18px;
+  }
+
+  .politic-text h3 {
+    font-size: 22px;
+  }
+
+  .secrets-box {
+    grid-gap: 10px;
+  }
+
+  .secrets {
+    margin-left: 20px;
+  }
+
+  .secrets,
+  .secrets-title {
+    margin-bottom: 20px;
+  }
+  .secrets__img {
+    width: 70%;
+  }
+  .atmosphere__photo {
+    width: 45%;
+  }
+
+  .feedback-container p {
+    font-size: 12px;
+    margin: 20px 50px 30px 50px;
+  }
+
+  .feedback__input,
+  .feedback__button {
+    width: 260px;
+    height: 70px;
+  }
+
+  label {
+    font-size: 8px;
+  }
+
+  li {
+    font-size: 6px;
+    line-height: 10px;
+    text-align: center;
+  }
+  .icon-star {
+    width: 30px;
+    height: 30px;
+  }
+  .icon-star-bg {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .procedures,
+  .procedures-title {
+    margin-bottom: 20px;
+  }
+
+  .callback__img {
+    width: 60px;
+    height: 30px;
+  }
+
+  .footer-wrapper {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    justify-content: space-around;
+  }
+
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-vibe__call {
+    margin-left: 0;
+  }
+  .prices-box__item {
+    flex-direction: column;
+  }
+
+  .prices-box__item img {
+    width: 60%;
+  }
+
+  .prices-box__item {
+    margin-bottom: 15px;
+  }
+
+  .prices-box__item-el {
+    margin-left: 0;
+  }
+
+  .prices-box p {
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+
+  .prices__button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .politic-text {
+    margin: 0 100px 20px 100px;
+  }
+}

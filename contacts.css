@@ -1,0 +1,107 @@
+.our-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts-title h5 {
+  margin-left: 20px;
+}
+
+.contact-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  margin-bottom: 100px;
+}
+
+.contact-bg__map {
+  width: 100%;
+  height: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.contact-callback,
+.contact-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-mail {
+  margin-left: 50px;
+}
+
+.coworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coworks-box {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.coworks-box {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.coworks-box__item,
+.coworks-box__location-tb {
+  display: flex;
+  flex-direction: row;
+}
+
+.coworks-box__item {
+  padding-bottom: 60px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #e9e9f1;
+}
+
+.coworks-box__location-tb {
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.coworks-box__location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.coworks-box__location h2 {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+  /* or 106% */
+
+  color: #34343f;
+}
+
+.coworks-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}

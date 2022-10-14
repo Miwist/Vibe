@@ -1,0 +1,87 @@
+table {
+  width: 300px;
+  border-collapse: collapse;
+  border: 2px solid white;
+  color: black;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+}
+td,
+th {
+  padding: 8px;
+  border: 1px solid #e9e9f1;
+  text-align: left;
+}
+
+.prices-box h2 {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 32px;
+
+  color: #34343f;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.prices-title,
+.prices-box__item-el {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prices-box__item-el p {
+  text-align: center;
+}
+
+.prices-box__item-el {
+  margin-left: 50px;
+  text-align: start;
+  align-items: center;
+}
+
+.prices-box__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 50px;
+  border-bottom: 1px solid #e9e9f1;
+}
+
+.prices-box__item-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prices__button {
+  width: 260px;
+  height: 80px;
+  color: #34343f;
+  background: linear-gradient(314.24deg, #c88c61 25.11%, #ebbe9c 88.64%);
+  box-shadow: inset 0px 0px 10px #e5b79a;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-top: 10px;
+}
+
+.prices__button:hover {
+  opacity: 0.8;
+}
+
+.prices__button:active {
+  opacity: 0.5;
+}
